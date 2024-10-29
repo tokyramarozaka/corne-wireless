@@ -32,13 +32,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                   bindings = <
-                    &trans      &kp EXLM &kp AT &kp HASH &kp DLR &kp PERC   &kp CIRC    &kp AMPR      &kp ASTR      &kp LPAR     &kp RPAR      &trans
-
+                    &kp TAB &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET    &kp AMPS     &kp ASTRK      &kp LPAR     &kp RPAR      &kp BSPC
                     &kp PIPE    &kp 1    &kp 2         &kp 3        &kp 4         &kp 5    &kp QUOT    &kp TILDE     &kp GRAVE     &kp LCURL    &kp RCURL     &trans
-
                     &kp UNDS    &kp PLUS &kp LBRC      &kp RBRC     &kp BSLS      &trans  &trans      &kp EQUAL     &kp MINS      &kp COLON    &kp SEMI      &kp DQUO
-
-                                  &trans   &trans   &trans                &trans         &trans           &trans
+                                  &trans  &trans   &trans                &trans         &trans           &trans
                   >;
                 };
                 raise_layer {
